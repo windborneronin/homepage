@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.darkLightModeButton {
+    float: right;
+}
+
+.pageNavigation {
+    color: #000000;
+    width: max-width;
+    height: max-height;
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #aca7ff;
+    position: relative;
+    box-shadow: -5px 5px 0px 0px #000000;
+    line-height: 1.5;
+}
+
+.navigationCaption {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.pageNavElements {
+    margin: auto;
+    list-style: none;
+    padding-left: 12px;
+}
+
+.pageNavLink {
+    color: #10162f;
+
+}
+
+.pageNavLink:hover {
+    color: #ffd000
+}
+
+.pageNavLink:active {
+    color: #ca0600;
+}
+
+.content {
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f8e7d3;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+    color: #eee;
+    background: #10162f;
+}
+
+.trainInfo {
+    display: block;
+}
+
+.hidden {
+    display: none ; 
+}
+
+.tableCaption {
+    caption-side: top;
+    text-align: left;
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.musicTable {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: -5px 5px 0px 0px #000000;
+
+}
+
+.tableHeader {
+    color: aliceblue;
+    background-color: #D3E4F8;
+    font-weight: 700;
+}
+
+.tableRow {
+    background-color: #A7C9F1;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #c0cdff;
+}
+
+.tableCell {
+    color: #000000;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contactMeBox {
+    color: #000000;
+    padding: 1%;
+    margin-top: 50px;
+    width: max-width;
+    height: max-height;
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #D3F8E7;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.recommendedWebsites {
+    margin-top: 10%;
+}
+
+.caption {
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.listItem {
+    padding-bottom: 10px;
+}
+
+
+.contact {
+    margin-top: auto;
+}
+
+.link {
+    color: currentColor;
+}
+
+.link:visited {
+    color: none;
+    border-bottom: none;
+}
+
+.link:hover {
+    color: #756dff;
+}
+
+.link:active {
+    color: #ca0600;
+}
+
+.goBackToTheTopLink {
+    color: #000000;
+    background-color: #aca7ff;
+    text-decoration: none;
+    padding: 2px 2px;
+}
+
+.goBackToTheTopLink:hover {
+    background-color:#ffd000
+}
+
+.goBackToTheTopLink:active {
+    color: #da0600;
+}

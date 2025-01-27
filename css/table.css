@@ -1,0 +1,43 @@
+.table__caption {
+    caption-side: top;
+    text-align: left;
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.table__container {
+    overflow-x: auto;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: -5px 5px 0px 0px #000000;
+
+}
+
+.table__header {
+    background-color: #D3E4F8;
+    font-weight: 700;
+}
+
+.table__row {
+    background-color: #A7C9F1;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__row:hover {
+    background-color: #c0cdff;
+}
+
+.table__cell {
+    color: #000000;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}

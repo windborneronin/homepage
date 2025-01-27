@@ -1,0 +1,37 @@
+.navigation {
+    color: #000000;
+    width: max-width;
+    height: max-height;
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #aca7ff;
+    position: relative;
+    box-shadow: -5px 5px 0px 0px #000000;
+    line-height: 1.5;
+}
+
+.navigation__caption {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.navigation__list {
+    margin: auto;
+    list-style: none;
+    padding-left: 12px;
+}
+
+.navigation__link {
+    color: #10162f;
+
+}
+
+.navigation__link:hover {
+    color: #ffd000
+}
+
+.navigation__link:active {
+    color: #ca0600;
+}

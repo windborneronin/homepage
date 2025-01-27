@@ -1,0 +1,28 @@
+.list {
+    margin-top: 10%;
+}
+
+.list__caption {
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.list__item {
+    padding-bottom: 10px;
+}
+.list__link {
+    color: currentColor;
+}
+
+.list__link:visited {
+    color: none;
+    border-bottom: none;
+}
+
+.list__link:hover {
+    color: #756dff;
+}
+
+.list__link:active {
+    color: #ca0600;
+}

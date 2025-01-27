@@ -1,0 +1,15 @@
+.contact {
+    color: #000000;
+    padding: 1%;
+    margin-top: 50px;
+    width: max-width;
+    height: max-height;
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #D3F8E7;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.contact__header {
+    margin-top: auto;
+}

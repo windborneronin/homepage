@@ -1,0 +1,16 @@
+.button {
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #e53825;
+    position: relative;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.button:hover {
+    background-color: #c23222;
+}
+
+.button:active {
+    background-color: #e5382552;
+}

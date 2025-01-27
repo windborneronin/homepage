@@ -1,0 +1,17 @@
+.theme-toggle {
+    float: right;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+    background-color: #ffd500;
+    position: relative;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
+
+.theme-toggle:hover {
+    background-color: #ffec8a;
+}
+
+.theme-toggle:active {
+    background-color: #776301;
+}
