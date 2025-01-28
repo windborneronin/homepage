@@ -1,0 +1,11 @@
+.section__header {
+    caption-side: top;
+    text-align: left;
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+    box-shadow: -5px 5px 0px 0px #000000;
+}
