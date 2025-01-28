@@ -1,15 +1,3 @@
-.table__caption {
-    caption-side: top;
-    text-align: left;
-    margin-top: 70px;
-    font-weight: 700;
-}
-
-.table__container {
-    overflow-x: auto;
-    box-shadow: -5px 5px 0px 0px #000000;
-}
-
 .table {
     border-collapse: collapse;
     width: 100%;
