@@ -9,13 +9,11 @@ themeToggle.addEventListener ("click", () => {
     themeName.innerText = content.classList.contains ("content--dark-mode") ? "light" : "dark";
 });
 
-
-
 let button = document.querySelector(".button");
 let toggleInfo = document.querySelector(".js-toggleInfo");
-let contentVisible = document.querySelector(".content--visible");
+let contentVisible = document.querySelector(".content__container--visible");
 
 button.addEventListener("click", () => {
-    contentVisible.classList.toggle("content--hidden");
-    toggleInfo.innerText = contentVisible.classList.contains ("content--hidden") ? "Pokaż" : "Ukryj";
+    contentVisible.classList.toggle("content__container--hidden");
+    toggleInfo.innerText = contentVisible.classList.contains ("content__container--hidden") ? "Pokaż" : "Ukryj";
 });

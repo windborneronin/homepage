@@ -14,11 +14,11 @@
     background: #10162f;
 }
 
-.content--visible {
+.content__container--visible {
     display: block;
 }
 
-.content--hidden {
+.content__container--hidden {
     display: none ; 
 }
 
