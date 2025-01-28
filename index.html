@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first page</title>
+    <meta property="og:image" content="images/share.png">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -109,18 +110,20 @@
         </div>
 
         <section id="recommended-albums">
+            <!-- <h2 class="section__header"> Recommended music to listen to</h2>
+            <div class="section__tableContainer"> -->
             <h2 class="table__caption"> Recommended music to listen to</h2>
             <div class="table__container">
                 <table class="table">
 
                     <tr class="table__row">
-                        <th class="table__cell table__header" scope="col">Album</th>
-                        <th class="table__cell table__header" scope="col">Artist</th>
-                        <th class="table__cell table__header" scope="col">Year</th>
-                        <th class="table__cell table__header" scope="col">Comments</th>
+                        <th class="table__cell table__cell--header" scope="col">Album</th>
+                        <th class="table__cell table__cell--header" scope="col">Artist</th>
+                        <th class="table__cell table__cell--header" scope="col">Year</th>
+                        <th class="table__cell table__cell--header" scope="col">Comments</th>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Jazz Impressions of Japan</th>
+                        <th class="table__cell table__cell--header">Jazz Impressions of Japan</th>
                         <td class="table__cell">The Dave Brubeck Quartet</td>
                         <td class="table__cell">1964</td>
                         <td class="table__cell">A classic recording of the legendary line-up of Dave Brubeck's
@@ -137,7 +140,7 @@
                             Dave Brubeck just for the enjoyment of it.</td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Hex: Or Printing in the Infernal Method</th>
+                        <th class="table__cell table__cell--header">Hex: Or Printing in the Infernal Method</th>
                         <td class="table__cell">Earth</td>
                         <td class="table__cell">2005</td>
                         <td class="table__cell">Take a slow-tempo trip through the bluesy drones carefully created and
@@ -147,7 +150,7 @@
                         </td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Take Me to Your Leader</th>
+                        <th class="table__cell table__cell--header">Take Me to Your Leader</th>
                         <td class="table__cell">King Geedorah</td>
                         <td class="table__cell">2003</td>
                         <td class="table__cell">Another villain incarnation of the underground emcee MF DOOM, great
@@ -157,7 +160,7 @@
                             listen. </td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">The Payback</th>
+                        <th class="table__cell table__cell--header">The Payback</th>
                         <td class="table__cell">James Brown</td>
                         <td class="table__cell">1973</td>
                         <td class="table__cell">A great album from the Godfather of the Soul himself - James Brown -
@@ -167,7 +170,7 @@
                             the big payback! </td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Every Day</th>
+                        <th class="table__cell table__cell--header">Every Day</th>
                         <td class="table__cell">The Cinematic Orchestra</td>
                         <td class="table__cell">2002</td>
                         <td class="table__cell">The name of the band stands for iself, listening to this album (and
@@ -177,7 +180,7 @@
                         </td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Ascetic</th>
+                        <th class="table__cell table__cell--header">Ascetic</th>
                         <td class="table__cell">Ascetic</td>
                         <td class="table__cell">2023</td>
                         <td class="table__cell">My 2024 polish jazz discovery. Listened to them live, these guys
@@ -191,7 +194,7 @@
                         </td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header">Swagism</th>
+                        <th class="table__cell table__cell--header">Swagism</th>
                         <td class="table__cell">Ghost-Note</td>
                         <td class="table__cell">2018</td>
                         <td class="table__cell">If you're into blend of percussion-oriented contemporary funky jazz,
@@ -204,8 +207,11 @@
             </div>
         </section>
 
+        <!-- <aside id="favourite-websites" class="aside">
+            <h2 class="aside__header">Some favourite/useful websites (links will open in a new tab)</h2> -->
         <aside id="favourite-websites" class="list">
             <h2 class="list__caption">Some favourite/useful websites (links will open in a new tab)</h2>
+            <!-- <ul class="list"> -->
             <ul>
                 <li class="list__item"><a class="list__link" target="_blank" rel="noreferrer noopener"
                         href="https://en.wikipedia.org/wiki/Main_Page" title="Wikipedia EN main page">Wikipedia</a>
@@ -283,6 +289,7 @@
 
     <nav>
         <p>
+            <!-- <a class="navigation__goTop" href="#page-top">go back to the top ↑</a> -->
             <a class="go-top" href="#page-top">go back to the top ↑</a>
         </p>
     </nav>
